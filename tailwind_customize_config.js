@@ -10,7 +10,7 @@ tailwind.config = {
                 secondary_black: 'rgb(28, 28, 28)',
                 primary_shade_black: 'rgb(73, 73, 73)',
                 secondary_shade_black: 'rgb(115, 115, 115)',
-                background: '#3e3e3e38',
+                background: '#00000014',
             }
         }
     }
