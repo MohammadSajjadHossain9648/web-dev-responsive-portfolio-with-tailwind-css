@@ -1,20 +1,103 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rinterio</title>
-    <!-- Font CSS file -->
-    <link rel="stylesheet" href="styles/font.css">
-    <!-- Fontawesome CDN -->
-    <script src="https://kit.fontawesome.com/c85979d82a.js" crossorigin="anonymous"></script>
-    <!-- daisyUI 4.12.10 CSS file + Tailwind CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- customize configuration with own design tokens -->
-    <script src="tailwind_customize_config.js"></script>
-</head>
-<body>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rinterio</title>
+  <link rel="icon" type="image/x-icon" href="assets/urban-planning.png">
+  <!-- Font CSS file -->
+  <link rel="stylesheet" href="styles/font.css">
+  <!-- Favicon CDN -->
+  <script src="https://kit.fontawesome.com/c85979d82a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet'
+    href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <!-- daisyUI 4.12.10 CSS file + Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- customize configuration with own design tokens -->
+  <script src="tailwind_customize_config.js"></script>
+</head>
+
+<body class="font_manrope">
+  <header class="lg:mx-20 lg:my-5">
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="rounded-full bg-light_green px-2.5 py-1">
+            <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+          </div>
+          <h1 class="text-3xl	font-bold text-primary_black pl-0.5">Rinterio</h1>
+        </div>
+
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-bold text-secondary_shade_black">
+            <li class="hover:text-primary_shade_black"><a href="#">Home</a></li>
+            <li class="hover:text-primary_shade_black"><a href="#">Services</a></li>
+            <li class="hover:text-primary_shade_black"><a href="#">Portfolio</a></li>
+            <li class="hover:text-primary_shade_black"><a href="#">Blogs</a></li>
+            <li class="hover:text-primary_shade_black"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="navbar-end gap-2">
+          <button class="hidden md:inline btn btn-circle bg-white text-secondary_shade_black">
+            <i class="fa fa-search text-secondary_shade_black"></i>
+          </button>
+          <button class="hidden md:inline btn btn-circle bg-white text-secondary_shade_black">
+            <i class="fi fi-rr-shopping-cart text-secondary_shade_black"></i>
+          </button>
+          <button class="hidden md:flex btn bg-primary_green rounded-full">
+            <p class="pr-1 text-secondary_black text-xl font-bold">Book Consult</p>
+            <div class="rounded-full bg-black px-2.5 py-2">
+              <i class="fa-solid fa-arrow-up-long rotate-45 text-white"></i>
+            </div>
+          </button>
+        </div>
+        <div class="lg:hidden dropdown dropdown-bottom dropdown-end">
+          <div tabindex="0" role="button" class="btn m-1 rounded-full"><i class="fa fa-align-justify"></i></div>
+          <ul tabindex="0"
+            class="dropdown-content menu rounded-box w-60 p-2 text-secondary_shade_black font-bold z-[1] backdrop-blur-md">
+            <li class="hover:text-primary_shade_black"><a href="#">Home</a></li>
+            <li class="hover:text-primary_shade_black"><a href="#">Services</a></li>
+            <li class="hover:text-primary_shade_black"><a href="#">Portfolio</a></li>
+            <li class="hover:text-primary_shade_black"><a href="#">Blogs</a></li>
+            <li class="hover:text-primary_shade_black"><a href="#">Contact Us</a></li>
+            <li class="hover:text-primary_shade_black md:hidden"><a href="#"><i class="fa fa-search"></i></a></li>
+            <li class="hover:text-primary_shade_black md:hidden"><a href="#"><i class="fi fi-rr-shopping-cart"></i></a>
+            </li>
+            <li class="hover:text-primary_shade_black md:hidden">
+                <button class="btn bg-primary_green">
+                  <p class="text-secondary_black">Book Consult</p>
+                  <div class="rounded-full bg-black px-2.5 py-2">
+                    <i class="fa-solid fa-arrow-up-long rotate-45 text-white"></i>
+                  </div>
+                </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="card">
+      <figure class="px-10 pt-10">
+        <img src="assets/banner.png" alt="rent house image"/>
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title text-6xl font-bold text-primary_black">Green-Infused Urban Development: Crafting Tomorrow's Cities</h2>
+        <p class="text-primary_shade_black w-11/12 py-5">Dive into the world of green-infused urban development and see how innovative practices are shaping vibrant, sustainable cities of the future. Discover the blend of eco-friendly design and economic vitality driving tomorrow's urban landscapes.</p>
+        <div class="card-actions">
+          <button class="flex btn bg-light_green rounded-full">
+            <p class="text-secondary_black text-xl font-bold">View Details</p>
+            <div class="rounded-full bg-light_green px-2.5 py-2">
+              <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
 </body>
+
 </html>
