@@ -11,6 +11,11 @@ tailwind.config = {
                 primary_shade_black: 'rgb(73, 73, 73)',
                 secondary_shade_black: 'rgb(115, 115, 115)',
                 background: '#00000014',
+
+                work_container_bg1: 'rgb(231, 193, 211)',
+                work_container_bg2: 'rgb(239, 218, 110)',
+                work_container_bg3: 'rgb(164, 218, 195)',
+                work_container_bg4: 'rgb(119, 170, 234)',
             }
         }
     }
