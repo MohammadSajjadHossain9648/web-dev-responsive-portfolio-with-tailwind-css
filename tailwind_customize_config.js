@@ -19,6 +19,8 @@ tailwind.config = {
                 work_container_bg2: 'rgb(239, 218, 110)',
                 work_container_bg3: 'rgb(164, 218, 195)',
                 work_container_bg4: 'rgb(119, 170, 234)',
+
+                formtext: 'rgb(160, 160, 160)',
             }
         }
     }

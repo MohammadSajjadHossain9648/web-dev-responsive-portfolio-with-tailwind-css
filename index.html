@@ -111,7 +111,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <!-- First grid item -->
         <div class="flex flex-col justify-center lg:items-start items-center">
-          <button class="btn rounded-full mb-4 bg-white"><i class="fa-solid fa-arrow-up-long rotate-90"></i>About Us</button>
+          <button class="btn rounded-full mb-4 bg-white text-primary_shade_black"><i class="fa-solid fa-arrow-up-long rotate-90"></i>About Us</button>
           <h1 class="text-4xl text-primary_black font-bold text-center lg:text-left">We design thoughtful, liveable spaces</h1>
           <p class="py-6 text-primary_shade_black text-center lg:text-left">
             We create spaces that are not only visually appealing but also thoughtfully designed for comfort and functionality, enhancing everyday living.
@@ -174,7 +174,7 @@
     <div class="p-10 lg:p-20">
       <div class="flex md:justify-around">
         <div class="md:w-4/5 lg:w-2/3 object-center	flex flex-col items-center text-center">
-          <button class="btn rounded-full mb-4 bg-white"><i class="fa-solid fa-arrow-up-long rotate-90"></i>How we works</button>
+          <button class="btn rounded-full mb-4 bg-white text-primary_shade_black"><i class="fa-solid fa-arrow-up-long rotate-90"></i>How we works</button>
           <h1 class="text-4xl text-primary_black font-bold">Our Works Process</h1>
           <p class="py-6 text-primary_shade_black">
             Our process turns ideas into reality through innovative design and expert execution. From concept to completion, we ensure every detail exceeds expectations.
@@ -214,7 +214,7 @@
   <div class="hidden m-10 lg:m-20">
     <div class="flex md:justify-around">
       <div class="md:w-4/5 lg:w-2/3 object-center	flex flex-col items-center text-center">
-        <button class="btn rounded-full mb-4 bg-shade_greeen"><i class="fa-solid fa-arrow-up-long rotate-90"></i>Explore our Latest works</button>
+        <button class="btn rounded-full mb-4 bg-shade_greeen text-primary_shade_black"><i class="fa-solid fa-arrow-up-long rotate-90"></i>Explore our Latest works</button>
         <h1 class="text-4xl text-primary_black font-bold">Our Latest Portfolio</h1>
         <p class="py-6 text-primary_shade_black">
           Explore our latest portfolio showcasing innovative designs and successful projects that highlight our commitment to quality and creativity.
@@ -270,6 +270,35 @@
 
     </div>
 
+  </div>
+
+
+  <!-- form section -->
+  <div class="p-10 lg:p-20 my-4 bg-[url('assets/bg.jpg')] bg-cover">
+    <div class="flex md:justify-around">
+      <div class="md:w-4/5 lg:w-2/3 object-center	flex flex-col items-center text-center">
+        <button class="btn rounded-full mb-4 bg-shade_greeen text-primary_shade_black"><i class="fa-solid fa-arrow-up-long rotate-90"></i>Let’s Connect</button>
+        <h1 class="text-4xl text-primary_black font-bold">Let’s Discuss Next Project</h1>
+        <p class="py-6 text-primary_shade_black">
+          Ready to bring your next project to life? Let's connect and collaborate to create something exceptional together. Fill out the form, and we'll be in touch soon!        </p>
+      </div>
+    </div>
+
+    <div class="flex justify-center py-8">
+      <form action="#" method="post" class="w-full md:w-5/6 grid grid-cols-2 justify-center items-center gap-6" >
+        <input type="text" id="first_name" name="first name" placeholder="First Name*" required class="sm:col-span-2 md:col-span-1 p-4 placeholder:text-formtext border rounded-full">
+        <input type="text" id="last_name" name="last name" placeholder="Last Name*" required class="sm:col-span-2 md:col-span-1 p-4 placeholder:text-formtext border rounded-full">
+        <input type="number" id="phone_number" name="phone number" placeholder="Phone Number*" required class="sm:col-span-2 md:col-span-1 p-4 placeholder:text-formtext border rounded-full">
+        <input type="email" id="email_number" name="Email Number" placeholder="Email Number*" required class="sm:col-span-2 md:col-span-1 p-4 placeholder:text-formtext border rounded-full">
+        <textarea name="message" id="message" cols="20" rows="10" placeholder="Write your message here" required class="col-span-2 p-4 placeholder:text-formtext border rounded-2xl"></textarea>
+        <button type="submit" value="Submit" class="col-span-2 w-full md:flex btn bg-primary_green rounded-full">
+          <p class="pr-1 text-secondary_black text-xl font-bold">Send Mail</p>
+          <div class="rounded-full bg-secondary_black px-2.5 py-2">
+            <i class="fa-solid fa-arrow-up-long rotate-45 text-white"></i>
+          </div>
+        </button>
+      </form>
+    </div>
   </div>
 
 
